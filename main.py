@@ -1,8 +1,8 @@
 from dtslib import *
 import random
 
-test = random.sample(range(1,20), 19)
-# test = [33, 31, 40, 8, 12, 17, 25, 42]
+test = random.random()  # Sensitive
+
 
 print("*******Original********")
 print(test)
